@@ -1,0 +1,15 @@
+HOTEL INFORMATION
+
+Hotel ratings are commonly expressed using a scale from 1 to 5 stars, although rating systems can vary by country and provider.
+
+A higher rating generally indicates a higher level of facilities and services, but the rating alone does not guarantee that a particular amenity is available.
+
+Check-in and check-out times vary by hotel.
+
+Some hotels require a security deposit or temporary card authorization.
+
+Breakfast may be included or excluded depending on the selected rate.
+
+Some hotel rates are refundable and others are non-refundable.
+
+The travel agent should use provider data to determine the actual hotel price, cancellation policy, breakfast inclusion and other booking conditions.

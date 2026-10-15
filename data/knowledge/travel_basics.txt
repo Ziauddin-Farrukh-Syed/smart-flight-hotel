@@ -1,0 +1,19 @@
+TRAVEL PLANNING BASICS
+
+A complete travel package can contain a flight and hotel.
+
+The total trip cost should include the selected flight price and the hotel cost for the required number of nights.
+
+The number of hotel nights is calculated as the checkout date minus the check-in date.
+
+For example, a trip from October 2 to October 10 requires 8 hotel nights.
+
+A travel recommendation should respect the user's maximum budget.
+
+If no complete flight and hotel combination satisfies the user's constraints, the agent should clearly state that no matching option was found.
+
+The agent should never invent flight availability, hotel availability or prices.
+
+Live prices and availability must come from an appropriate provider or tool.
+
+The AI assistant may explain and compare results, but deterministic application logic should enforce budget and travel constraints.
