@@ -327,9 +327,11 @@ function App() {
                   <p>Try increasing your budget or changing your travel preferences.</p>
                 </article>
               )}
+              <div className="flex-grid">
                 {displayedRecommendations.length > 0 &&
                   displayedRecommendations.map((option, index) => (
-                  <article
+                <div>
+                    <article
                     className="travel-form result-card"
                       key={`${option.flight.flight_number}-${option.hotel.name}-${index}`}
                   >
@@ -368,13 +370,16 @@ function App() {
               <p>Hotel: £{option.hotel_cost.toFixed(2)}</p>
               <h3>Total: £{option.total_cost.toFixed(2)}</h3>
               <p>Remaining budget: £{option.remaining_budget.toFixed(2)}</p>
-            </article>
+                  </article>
+                </div>
           ))}
-
-          <article className="travel-form">
-            <h3>AI travel explanation</h3>
-            <p>{results.explanation}</p>
-          </article>
+          <div>
+            <article className="travel-form">
+              <h3>AI travel explanation</h3>
+              <p>{results.explanation}</p>
+            </article>
+            </div>
+          </div>
         </section>
       )}
     </main>
